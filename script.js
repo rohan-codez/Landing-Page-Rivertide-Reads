@@ -81,7 +81,7 @@ gsap.to('.description .description-text', {
         scrub: 3,
         pin: true,
         start: 'top 0',
-        end: 'top -300%'
+        end: 'top -170%'
     },
 })
 
@@ -116,7 +116,7 @@ gsap.from('.features-section', {
     scrollTrigger: {
         trigger: '.features-section',
         scroller: '.main',
-        start: 'top 30%'
+        start: 'top 70%'
     }
 })
 
